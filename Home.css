@@ -1,0 +1,64 @@
+/* HERO SECTION */
+.home {
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 80px 8%;
+background: linear-gradient(135deg, var(--primary), var(--secondary));
+  color: white;
+}
+
+/* LEFT CONTENT */
+.home-content {
+  max-width: 600px;
+}
+
+.head {
+  font-size: 4.5rem;
+  font-weight: 800;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.wel {
+  color: #4fd1c5;
+}
+
+.my-box {
+  font-size: 1.5rem;
+  line-height: 1.7;
+  color: #d1d5db;
+}
+
+/* RIGHT IMAGE / EMOJI */
+.home-image {
+  font-size: 200px;
+}
+
+/* ALL COURSES TITLE */
+.section-title {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-top: 80px;
+  color: #22d3ee;
+}
+
+@media (max-width: 768px) {
+
+  .home {
+    flex-direction: column;
+    text-align: center;
+    padding: 60px 20px;
+  }
+
+  .head {
+    font-size: 2.2rem;
+  }
+
+  .home-image {
+    margin-top: 30px;
+    font-size: 80px;
+  }
+
+}

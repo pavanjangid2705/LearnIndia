@@ -1,0 +1,70 @@
+
+.navbar { 
+background-color: rgb(36, 57, 57);
+padding: 15px 4px; 
+display: flex; 
+justify-content: space-between; 
+align-items: center; 
+font-weight: bold;
+box-shadow: 0 1px 10px ;
+position: fixed;
+width: 100%;
+z-index: 1000;
+
+
+} 
+
+.nav-links { 
+list-style: none; 
+display: flex; 
+justify-content: space-between; 
+gap:25px;
+font-size: 18px;
+
+} 
+.logo{
+font-family: 'Jokerman';
+font-size: 40px;
+margin-left: 15px;
+background: linear-gradient(to right, rgb(255, 255, 255), rgb(58, 173, 58));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.nav-links li:hover {
+  cursor: pointer;
+  color: red;
+}
+.nav-links a:hover {
+  color: red;
+}
+
+/* Hide scrollbar for Chrome, Edge, Safari */
+::-webkit-scrollbar {
+  display:none;
+}
+
+@media (max-width: 768px) {
+
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 10px;
+  }
+
+  .logo {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    font-size: 16px;
+  }
+
+}
+
+
+
+  
